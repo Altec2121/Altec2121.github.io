@@ -1,7 +1,17 @@
+
 h1 {
     color: red;
+    font-family: broadway;
+    font-size: 50px;
+    text-decoration: underline;
 }
 
 img {
     opacity: 1;
+}
+
+p {
+    font-family: sans-seriff;
+    font-weight: bold;
+    
 }
