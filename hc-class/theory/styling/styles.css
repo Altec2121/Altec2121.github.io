@@ -1,0 +1,30 @@
+h1 {
+    color: black;
+    background-color: rgba(85, 255, 252, 0.9)
+
+}
+
+p {
+    font-size: 24px;
+    font-family: "sans-seriff";
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+#paragraph {
+    background-color: red;
+    text-decoration: none;
+}
+
+.bluecolor {
+    color: blue;
+}
+
+.linethrough {
+    text-decoration: line-through;
+}
+
+img {
+    opacity: 0.612746;
+}
