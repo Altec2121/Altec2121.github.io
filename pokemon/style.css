@@ -12,6 +12,14 @@ img {
 
 p {
     font-family: sans-seriff;
-    font-weight: bold;
-    
+    font-weight: bold;   
+}
+
+.Trolliolio {
+    background-color: red;
+    color: white;
+}
+
+.Wingdings {
+    font-family: Wingdings;
 }
