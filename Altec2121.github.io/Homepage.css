@@ -1,0 +1,82 @@
+p {
+    color: white;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+ol {
+    color: white;
+}
+
+body {
+    background-color: black
+}
+
+.nav {
+    background-color: rgba(45, 45, 45, 0.98);
+    position: sticky;
+    top: 0;
+    
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin: 0 auto;
+    height: 44px;
+}
+
+.nav-item {
+    margin: auto;
+}
+
+.nav-link, .nav-link:visited {
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+.nav-link:hover {
+    opacity: 0.5;
+    text-decoration: underline; 
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.center-header {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.image {
+    position: relative;
+    width: 100%
+}
+
+.quote {
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}    
+
+.quote span {
+    color: white;
+    font: bold;
+    font-family: Times New Roman; 
+    letter-spacing: -1px;
+    background: rgb (0, 0, 0)
+    background: rgba (0, 0, 0, 0.7);
+    padding: 10px;
+    font-size: 115px;
+}

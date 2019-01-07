@@ -1,7 +1,6 @@
 h1 {
     color: black;
     background-color: rgba(85, 255, 252, 0.9)
-
 }
 
 p {
@@ -27,4 +26,63 @@ p {
 
 img {
     opacity: 0.612746;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#box {
+    text-align: center
+}
+
+ul {
+    list-style-type: none;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    background-color: aqua;
+}
+
+th, td {
+    padding: 20px;
+}
+
+.link, .link:visited {
+    text-decoration: none;
+    color: black;
+    transition: all 1s; 
+}
+
+.link:hover {
+    color: red;
+    font-size: 20px;
+}
+
+.margin {
+    margin: 50px;
+}   
+
+.button, .button:visited {
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: wingdings;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 3px red solid;
+    color: red;
+    border-radius: 5px;
+    transition: all 0.7s;
+}
+
+.button:hover {
+    background-color: blue;
+    color: white;
+    font-size: 30px;
 }
