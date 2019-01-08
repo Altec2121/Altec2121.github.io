@@ -23,16 +23,6 @@ p {
     color: white;
 }
 
-table, th, td {
-    border: 2px solid black;
-}
-
-table {
-    border-collapse: collapse;
-    width: 50%;
-    background-color: white;
-}
-
 .nav {
     background-color: rgba(45, 45, 45, 0.98);
     position: sticky;
@@ -64,7 +54,7 @@ table {
 }
 
 .pointing {
-    display: block;
+    display: inline;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
