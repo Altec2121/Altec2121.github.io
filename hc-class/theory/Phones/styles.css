@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Container styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navbar styling */
+
+.nav-color {
+background-color: rgba(45, 45, 45, 0.98)
+}
+
+.nav {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-header {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.nav-link:hover {
+    color: #E0E0E0;
+    border-bottom: 3px solid white;
+    padding: 10px;
+}
+
+/* Main Image Section */
+.main {
+    padding-top: 150px;
+    height: 600px;
+    background-image: url(images/bg.png)
+}
+
+.main-header {
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold; 
+    color: white;
+}
+
+.main-description {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+/* Cards Section */
+.card-image {
+    height: 200px;
+}
+
+.card-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-item {
+    border: rgba(45, 45, 45, 0.98) 2px solid;
+    width: 45%;
+    padding: 25px;
+    padding: 20px;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-description {
+    text-align: center;
+}
