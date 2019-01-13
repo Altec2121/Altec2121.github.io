@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Segoe UI;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 50px 1fr 50px;
+}
+
+.header {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: rgba(45, 45, 45, 0.98);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-sidebar {
+    background-color: #424242;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.content {
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+}
+
+.anchor, .anchor:visited {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+    text-align: center;
+    padding: 41px 20px;
+}
+
+.anchor:hover {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.card-image {
+    height: 300px;
+    width: auto;
+}
+
+.card-image:hover {
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+
+.card-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: black;
+}
+
+.card-item {
+    border: rgba(45, 45, 45, 0.98) 2px solid;
+    border-radius: 10px;
+    width: 30%;
+    padding: 50px;
+    margin: -500px -50px 50px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-description {
+    text-align: center;
+}
