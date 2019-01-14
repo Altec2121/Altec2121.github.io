@@ -7,7 +7,7 @@
 
 .calculator {
     width: 400px;
-    height: 600px;
+    height: 640px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 3fr repeat(5, 1fr);
@@ -47,4 +47,5 @@
 
 .btn {
     color: white;
+    font-size: 1.5em;
 }
