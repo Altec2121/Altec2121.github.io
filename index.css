@@ -17,8 +17,7 @@ body {
 .nav {
     background-color: rgba(45, 45, 45, 0.98);
     position: sticky;
-    top: 0;
-    
+    top: 0;  
 }
 
 .nav-list {
@@ -43,7 +42,7 @@ body {
 .nav-link:hover {
     opacity: 0.5;
     text-decoration: underline; 
-    padding: 20px;
+    padding: 0px;
 }
 
 .center {
@@ -80,4 +79,18 @@ body {
     background: rgba (0, 0, 0, 0.7);
     padding: 10px;
     font-size: 115px;
+}
+
+@media (max-width: 800px) {
+    .nav {
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-list {
+        flex-direction : column;
+        align-items: center;
+        width: 300px;
+    }
 }
