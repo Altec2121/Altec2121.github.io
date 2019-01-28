@@ -93,4 +93,7 @@ body {
         align-items: center;
         width: 300px;
     }
+    .quote, .quote span {
+        font-size: 30px;
+    }
 }
