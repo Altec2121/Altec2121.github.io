@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(45, 45, 45, 0.98);
+    background-color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav {
     top: 0;
     position: sticky;
+    background-color: rgba(45, 45, 45, 0.98)
 }
 
 .nav-list {

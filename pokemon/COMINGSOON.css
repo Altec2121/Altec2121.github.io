@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-image: url(http://www.mypokecard.com/my/galery/idRN5gl5uroK.jpg);
+    font-family: sans-serif;
+    font-weight: 100;
+    background-size: auto;
+    background-repeat: space; 
+    background-color: yellow;
+  }
+  
+  h1 {
+    color: black;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+  }
+  
+  #clockdiv {
+    font-family: sans-serif;
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #clockdiv > div {
+    padding: 10px;
+    border-radius: 3px;
+    background: #3f72a3;
+    display: inline-block;
+  }
+  
+  #clockdiv div > span {
+    padding: 15px;
+    border-radius: 3px;
+    background: #FFFFFF;
+    display: inline-block;
+  }
+  
+  .smalltext {
+    padding-top: 5px;
+    font-size: 16px;
+  }
+  
+  #clockdiv span {
+     color: #1a1a1a;
+  }
