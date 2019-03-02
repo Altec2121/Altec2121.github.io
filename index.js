@@ -1,1 +1,1 @@
-alert("Warning: Viewing this on a smaller device than a laptop will make your experience hell.");
+
