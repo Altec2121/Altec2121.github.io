@@ -1,0 +1,28 @@
+* {
+  font-family: Helvetica;
+  text-align: center;
+}
+
+canvas {
+  border: 2px solid rgb(151, 149, 149);
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  border: 3px;
+  border-style: solid;
+  border-color: white;
+  padding: 5px;
+  background-color: black;
+  transition: all 0.3s ease-in-out;
+  margin-left: 400px;
+  margin-right: 400px;
+  color: white;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}

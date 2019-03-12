@@ -25,5 +25,5 @@ while (number > 69) {
   }
 }
 if (number == 69) {
-  alert("You GOT IT FAM!");
+  alert("You GOT IT!");
 }

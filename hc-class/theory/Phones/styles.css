@@ -87,7 +87,7 @@ position: relative;
     justify-content: center;
     margin: 20px;
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: all 1s ease;
     color: white;
 }
 
