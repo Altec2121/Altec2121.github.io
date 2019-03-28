@@ -127,7 +127,7 @@ ul li a:hover + .hidden, .hidden:hover {
   text-decoration: none;
   color: white;
   background-color: rgba(45, 45, 45, 0.98);
-  text-align: right;
+  text-align: center;
   padding: 10px 0;
   display: none;
 }

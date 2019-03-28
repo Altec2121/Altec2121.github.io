@@ -127,3 +127,20 @@
   color: black;
   transition: all 0.4s ease-in-out;
 }
+
+@media(max-width: 500px) {
+  .nav {
+    height: 80px;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .nav-item {
+    padding: 5px;
+  }
+  .nav-header {
+    justify-content: space-around
+  }
+}

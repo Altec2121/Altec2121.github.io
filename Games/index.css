@@ -26,3 +26,12 @@ a:hover {
   color: black;
   border-color: black;
 }
+
+@media (max-width: 1000px) {
+  * {
+    padding: 3px;
+  }
+  div a {
+    margin: 0 auto;
+  }
+}

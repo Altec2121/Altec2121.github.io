@@ -50,4 +50,22 @@ h1 {
   border-bottom: 3px solid white;
 }
 
-
+@media (max-width: 650px) {
+  .nav {
+    height: 120px;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .nav-item {
+    padding: 5px;
+  }
+  .nav-header {
+    margin-left: 5px;
+  }
+  h1 {
+    padding: 100px 10px 0px 10px;
+  }
+}
