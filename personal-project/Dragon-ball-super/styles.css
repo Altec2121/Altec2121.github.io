@@ -16,7 +16,7 @@ body {
   display: grid;
   height: 100%;
   grid-template-columns: 130px 1fr;
-  grid-template-rows: 50px 1fr 50px;
+  grid-template-rows: 50px 1fr;
 }
 
 .header {
@@ -78,8 +78,7 @@ body {
 .card-item {
   border: rgba(45, 45, 45, 0.98) 2px solid;
   border-radius: 10px;
-  width: 30%;
-  padding: 50px;
+  padding: 10px;
   margin: 30px 50px 30px 60px;
   display: flex;
   justify-content: center;
@@ -91,7 +90,7 @@ body {
 
 @media (max-width: 600px) {
   .card-image {
-    width: 110%;
+    width: 100%;
     height: auto;
   }
 }

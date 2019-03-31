@@ -101,5 +101,3 @@ function handleEqualButtonClick() {
   var result = eval(expression)
   resultDiv.innerHTML = result
 }
-
-

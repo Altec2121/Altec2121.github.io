@@ -56,6 +56,14 @@ var database = [
         option4: 'Apple reinvents the phone',
         answer: '4',
     },
+    {
+        question: 'What chip is used in the iPhone X?',
+        option1: 'A9',
+        option2: 'A10',
+        option3: 'A11',
+        option4: 'A12',
+        answer: '3',
+    },
 ]
 
 // Get random number from database
