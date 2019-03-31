@@ -68,12 +68,12 @@ function handleButtonClick() {
         playerAButton3.disabled = true
         if (playerA) {
             playerANameDiv.innerHTML = playerANameDiv.innerHTML + ('  Winner!')
-            playerBNameDiv.innerHTML = playerBNameDiv.innerHTML + ('  U suck')
+            playerBNameDiv.innerHTML = playerBNameDiv.innerHTML + ('  You suck!')
             playerANameDiv.style.color = 'green'
             playerBNameDiv.style.color = 'red'         
         } else {
             playerBNameDiv.innerHTML = playerBNameDiv.innerHTML + ('  Winner!')
-            playerANameDiv.innerHTML = playerANameDiv.innerHTML + ('  U suck')
+            playerANameDiv.innerHTML = playerANameDiv.innerHTML + ('  You suck!')
             playerBNameDiv.style.color = 'green'
             playerANameDiv.style.color = 'red'
         }    
