@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html, body, .container {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container {
+    height: 600px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+}
+
+.card {
+    border-radius: 5px; 
+    font-size: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px black;
+    color: white;
+}
+
+/* 1 & 10 */
+.card-1, .card-10 {
+    background-color: #00FFFF;
+}
+/* 2 & 14 */
+.card-2, .card-14 {
+    background-color: red;
+}
+/* 7 & 16 */
+.card-7, .card-16 {
+    background-color: blue;
+}
+/* 4 & 8 */
+.card-4, .card-8 {
+    background-color: green;
+}
+/* 13 & 3 */
+.card-13, .card-3 {
+    background-color: #f1c40f;
+}
+/* 6 & 11 */
+.card-6, .card-11 {
+    background-color: mediumvioletred;
+}
+/* 5 & 12 */
+.card-5, .card-12 {
+    background-color: indigo;
+}
+/* 9 & 15 */
+.card-9, .card-15 {
+    background-color: mediumturquoise;
+}
+
+.unselected {
+    background-color: black;
+}
+
+.unselected i {
+    display: none;
+}
