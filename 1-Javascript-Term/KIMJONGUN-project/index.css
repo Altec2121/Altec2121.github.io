@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman'
+}
+
+html, body, .main {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    background-color: yellow;
+    color: purple;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 80px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: solid 3px black;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+}
