@@ -1,0 +1,168 @@
+p {
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+}
+
+ol {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.center-header {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+}
+
+.quote {
+  position: absolute;
+  top: 600px;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.quote span {
+  color: white;
+  font: bold;
+  font-family: Times New Roman;
+  letter-spacing: -1px;
+  font-size: 115px;
+}
+
+.parallax {
+  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/RKwGR4d/cool-blue-neon-tunnel_v1_uq527x__F0007.png");
+  min-height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Strip the ul of padding and list styling*/
+ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  position: absolute;
+}
+/*Create a horizontal list with spacing*/
+li {
+  float: left;
+  margin: 2px;
+}
+/*Style for menu links*/
+li a {
+  display: block;
+  min-width: 197px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  background: rgba(45, 45, 45, 0.98);
+  text-decoration: none;
+  top: 0;
+}
+/*Hover state for top level links*/
+li:hover a {
+  background: white;
+  color: black;
+}
+/*Style for dropdown links*/
+li:hover ul a {
+  background: white;
+  color: black;
+  height: 40px;
+  line-height: 40px;
+  padding: 10px;
+}
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.5s;
+}
+/*Hide dropdown links until they are needed*/
+li ul {
+  display: none;
+}
+/*Make dropdown links vertical*/
+li ul li {
+  display: block;
+  float: none;
+}
+/*Prevent text wrapping*/
+li ul li a {
+  width: auto;
+  min-width: 100px;
+  padding: 0 20px;
+}
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+  display: block;
+}
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(45, 45, 45, 0.98);
+  text-align: center;
+  padding: 10px 0;
+  display: none;
+}
+/*Hide checkbox*/
+input[type=checkbox]{
+  display: none;
+}
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+  display: block;
+}
+/*Responsive Styles*/
+@media screen and (max-width : 1100px){
+  /*Make dropdown links appear inline*/
+  ul {
+      position: static;
+      display: none;
+  }
+  /*Create vertical spacing*/
+  li {
+      margin-bottom: 1px;
+  }
+  /*Make all menu links full width*/
+  ul li, li a {
+      width: 100%;
+  }
+  /*Display 'show menu' link*/
+  .show-menu {
+      display: block;
+
+  }
+  .quote span {
+    font-size: 40px;
+  }
+  .quote {
+    top: 1000px
+  }
+}
