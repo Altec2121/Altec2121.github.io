@@ -29,18 +29,20 @@ section h2 {
 }
 
 section:nth-of-type(2) {
-  background-image: url(https://thumbs.gfycat.com/SingleIndolentCob-size_restricted.gif);
+  background-image: url(https://pa1.narvii.com/6850/fa9ea8b6a329ed25eac77b147d0e60b623dc3655_hq.gif);
   color: #fff;
+  background-size: 110%;
 }
 
 section:nth-of-type(4) {
-  background-image: url(https://66.media.tumblr.com/b88d4cbae3cc6cf630599dcbbaa95943/tumblr_p51q0uoW2J1qc9dlro1_500.gif);
+  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/3754198277730125407/41F806D55153286CC2929AD7CAEBB9DDEC728B5F/);
   color: #fff;
 }
 
 section:nth-of-type(6) {
   background-image: url(https://steamuserimages-a.akamaihd.net/ugc/951845529586843907/A0DACA22964EB6796DD81705423072BDF823D4B3/);
   color: #fff;
+  background-size: 110%;
 }
 
 #panelnav {
@@ -51,7 +53,7 @@ section:nth-of-type(6) {
 
 @media (max-width: 800px) {
   section {
-    background-size: cover;
+    background-size: auto;
   }
   h2 {
     color: white;

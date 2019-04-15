@@ -52,7 +52,7 @@ h1 {
 
 @media (max-width: 650px) {
   .nav {
-    height: 120px;
+    height: 210px;
   }
   .nav-list {
     display: flex;
