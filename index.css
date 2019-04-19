@@ -29,20 +29,21 @@ section h2 {
 }
 
 section:nth-of-type(2) {
-  background-image: url(https://i.kinja-img.com/gawker-media/image/upload/s--j3Ifg5TD--/c_fill,f_auto,fl_progressive,g_center,h_675,q_80,w_1200/bkbo7rtdveno1sm3rbxf.gif);
+  background-image: url(https://i.imgur.com/UplBnQj.jpg);
   color: #fff;
-  background-size: 110%;
+  background-size: 100%;
 }
 
 section:nth-of-type(4) {
   background-image: url(https://i.pinimg.com/originals/7f/a2/45/7fa245dc316dab7c2f068f89d0a1cebd.jpg);
   color: #fff;
+  background-size: 100%;
 }
 
 section:nth-of-type(6) {
-  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/951845529586843907/A0DACA22964EB6796DD81705423072BDF823D4B3/);
+  background-image: url(https://i.ytimg.com/vi/K40ysHxWVrU/maxresdefault.jpg);
   color: #fff;
-  background-size: 110%;
+  background-size: 100%;
 }
 
 #panelnav {
