@@ -29,13 +29,13 @@ section h2 {
 }
 
 section:nth-of-type(2) {
-  background-image: url(https://pa1.narvii.com/6850/fa9ea8b6a329ed25eac77b147d0e60b623dc3655_hq.gif);
+  background-image: url(https://i.kinja-img.com/gawker-media/image/upload/s--j3Ifg5TD--/c_fill,f_auto,fl_progressive,g_center,h_675,q_80,w_1200/bkbo7rtdveno1sm3rbxf.gif);
   color: #fff;
   background-size: 110%;
 }
 
 section:nth-of-type(4) {
-  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/3754198277730125407/41F806D55153286CC2929AD7CAEBB9DDEC728B5F/);
+  background-image: url(https://i.pinimg.com/originals/7f/a2/45/7fa245dc316dab7c2f068f89d0a1cebd.jpg);
   color: #fff;
 }
 
@@ -101,7 +101,7 @@ section:nth-of-type(6) {
 
 .sidebar li a {
   color: black;
-  font-family: "Poiret One", cursive;
+  font-family: "Comic Sans MS";
   font-size: 1.2em;
   margin: 0;
   margin-bottom: 16px;
