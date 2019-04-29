@@ -24,13 +24,13 @@ function handleStartButtonClick() {
     startButton.disabled = true
     playing = true;
     oneMoleUp()
-    setTimeout(finishGame, 60000)
+    setTimeout(finishGame, 30000)
     timeInterval = setInterval(displayTime, 10)
 }
 
 function displayTime() {
     count++
-    var remaining = (60000 - count * 10) / 1000
+    var remaining = (30000 - count * 10) / 1000
     if (remaining > 0) {
         startButton.innerText = remaining
     } else {
@@ -60,9 +60,9 @@ function moleDown(currentMole) {
     if (currentMole == moleJump) {
         moles[moleActiveIndex].classList.remove('up')
         if(playing) {
-            scoreDiv.innerHTML = `Score: ${score}/${moleJump - 1}`
+            scoreDiv.innerHTML = `Score: ${score}/${moleJump}`
             oneMoleUp()
-        } 
+        }
     }
 }
 

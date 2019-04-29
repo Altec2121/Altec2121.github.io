@@ -1,14 +1,17 @@
+if (window.top !== window.self) {
+  window.top.location = window.self.location;
+}
 
-
-  function panelFocus() {
-    panels.forEach(function(el) {
-        let itemOffset = Math.abs(el.getBoundingClientRect().top);
-        if (itemOffset < 50) {
-             let currentPanel = parseInt(el.id.split("panel", 2)[1]);
-             panelLinks[currentPanel].checked = true;
-             panelLinks[currentPanel].focus(); 	
-        }
-        })
+function panelFocus() {
+  panels.forEach(function(el) {
+      let itemOffset = Math.abs(el.getBoundingClientRect().top);
+      if (itemOffset < 50) {
+            let currentPanel = parseInt(el.id.split("panel", 2)[1]);
+            panelLinks[currentPanel].checked = true;
+            panelLinks[currentPanel].focus(); 	
+      }
+    }
+  )
 }
 
 let panels = document.querySelectorAll("#slidingpanels section"),

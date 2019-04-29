@@ -1,7 +1,7 @@
  /** CONSTANTS **/
  const CANVAS_BORDER_COLOUR = 'black';
- const CANVAS_BACKGROUND_COLOUR = "white";
- const SNAKE_COLOUR = 'lightgreen';
+ const CANVAS_BACKGROUND_COLOUR = "black";
+ const SNAKE_COLOUR = '#39ff14';
  const SNAKE_BORDER_COLOUR = 'darkgreen';
  const FOOD_COLOUR = 'red';
  const FOOD_BORDER_COLOUR = 'darkred';
