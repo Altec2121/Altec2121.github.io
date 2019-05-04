@@ -9,11 +9,6 @@ body {
   background-color: black;
 }
 
-h1 {
-  text-align: center;
-  padding: 50px;
-}
-
 .nav-color {
   background-color: rgba(45, 45, 45, 0.98);
   position: relative;
@@ -37,11 +32,12 @@ h1 {
 .nav-list {
   list-style-type: none;
   display: flex;
-  width: 10%;
+  width: 60%;
   justify-content: space-between;
 }
 
 .nav-link {
+  margin-right: 10px;
   color: white;
   text-decoration: none;
   transition: all 0.3s;
@@ -50,18 +46,6 @@ h1 {
 .nav-link:hover {
   color: #e0e0e0;
   border-bottom: 3px solid white;
-}
-
-.link {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  transition: all 1s ease;
-  color: black;
-}
-
-.link:hover {
-  text-decoration: underline;
 }
 
 .card-section {
@@ -91,9 +75,9 @@ h1 {
   text-align: center;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1200px) {
   .nav {
-    height: 80px;
+    height: 210px;
     display: flex;
     flex-direction: column;
   }
@@ -107,9 +91,19 @@ h1 {
     padding: 5px;
   }
   .nav-header {
-    margin: 0px;
+    margin: 0;
   }
   h1 {
     padding: 100px 10px 0px 10px;
   }
+  .video {
+    width: 100%;
+    height: auto;
+  }
+  .card-item {
+    width: 100%;
+  }
+  .card-description {
+    font-size: 20px;
+  } 
 }

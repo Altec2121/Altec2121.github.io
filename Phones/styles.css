@@ -1,184 +1,197 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS';
 }
 
 body {
-    background-color: black;
-    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/6d4D4HR/loopable-stars-black-empty-space-4k_vjj549yxl__F0000.png);
+  background-color: black;
+  background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/6d4D4HR/loopable-stars-black-empty-space-4k_vjj549yxl__F0000.png);
 }
 
 /* Container styling */
 .container {
-    width: 80%;
-    margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* Navbar styling */
 
 .nav-color {
-background-color: rgba(45, 45, 45, 0.98);
-position: relative;
+  background-color: rgba(45, 45, 45, 0.98);
+  position: relative;
 }
 
 .nav {
-    display: flex;
-    height: 60px;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-header {
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
 }
 
 .nav-list {
-    list-style-type: none;
-    display: flex;
-    width: 40%;
-    justify-content: space-between;
+  margin-right: 10px;
+  list-style-type: none;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
 }
 
 .nav-link {
-    color: white;
-    text-decoration: none;
-    transition: all 0.3s;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s;
 }
 
 .nav-link:hover {
-    color: #E0E0E0;
-    border-bottom: 3px solid white;
+  color: #e0e0e0;
+  border-bottom: 3px solid white;
 }
 
 /* Main Image Section */
 .main {
-    padding-top: 150px;
-    height: 600px;
-    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/6d4D4HR/loopable-stars-black-empty-space-4k_vjj549yxl__F0000.png);
-    background-position: fixed;
+  padding-top: 150px;
+  height: 600px;
+  background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/6d4D4HR/loopable-stars-black-empty-space-4k_vjj549yxl__F0000.png);
+  background-position: fixed;
 }
 
 .main-header {
-    font-size: 100px;
-    text-align: center;
-    font-weight: bold; 
-    color: rgba(216, 200, 200, 0.767);
+  font-size: 100px;
+  text-align: center;
+  font-weight: bold;
+  color: rgba(216, 200, 200, 0.767);
 }
 
 .main-description {
-    font-size: 30px;
-    text-align: center;
-    color: rgba(216, 200, 200, 0.767);
+  font-size: 30px;
+  text-align: center;
+  color: rgba(216, 200, 200, 0.767);
 }
 
 /* Cards Section */
 .card-image {
-    height: 200px;
-    width: 1000px;
-    height: 580px
+  height: 200px;
+  width: 1000px;
+  height: 580px;
 }
 
 .link {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-    text-decoration: none;
-    transition: all 1s ease;
-    color: white;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  text-decoration: none;
+  transition: all 1s ease;
+  color: white;
 }
 
 .card-section {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .card-item {
-    border: rgba(45, 45, 45, 0.98) 2px solid;
-    width: 2000%;
-    margin: 20px 0px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    border-radius: 10px;
-    color: white;
-    background-color: black;
+  border: rgba(45, 45, 45, 0.98) 2px solid;
+  width: 2000%;
+  margin: 20px 0px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
 }
 
 .card-image {
-    width: 100%;
+  width: 100%;
 }
 
 .card-description {
-    text-align: center;
-    text-decoration: bold;
-    font-size: 30px;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-align: center;
+  text-decoration: bold;
+  font-size: 30px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
 }
 
 @media (max-width: 800px) {
-    .nav {
-    display:flex;
+  .nav {
+    display: flex;
     flex-direction: column;
     height: 100%;
     padding-bottom: 20px;
-    }
+  }
 
-    .nav-list {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .nav-link {
-        padding: 0;
-    }
+  .nav-link {
+    padding: 0;
+  }
 }
 
 /* bounce */
 .box:hover {
-    align-self: flex-end;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    margin: 0 auto 0 auto;
-    transform-origin: bottom;
+  align-self: flex-end;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  margin: 0 auto 0 auto;
+  transform-origin: bottom;
 }
 .bounce-4 {
-    animation-name: bounce-4;
-    animation-timing-function: ease;
+  animation-name: bounce-4;
+  animation-timing-function: ease;
 }
 @keyframes bounce-4 {
-    0%   { transform: scale(1,1)    translateY(0); }
-    10%  { transform: scale(1.1,.9) translateY(0); }
-    30%  { transform: scale(.9,1.1) translateY(-5px); }
-    50%  { transform: scale(1,1)    translateY(0); }
-    100% { transform: scale(1,1)    translateY(0); }
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-5px);
+  }
+  50% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
 }
 
 @media (max-width: 1000px) {
-    .card-image {
-        width: 100%;
-        height: auto;
-    }
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-width: 1100px) {
-    .card-item {
-        width: 100%;
-    }
-    h1 {
-        font-size: 20px;
-    }
-    .main {
-        background-size: 10%;
-        color: black; 
-    }
-    .card-description {
-        font-size: 20px;
-    }
+  .card-item {
+    width: 100%;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .main {
+    background-size: 10%;
+    color: black;
+  }
+  .card-description {
+    font-size: 20px;
+  }
 }
