@@ -54,14 +54,17 @@ h1 {
 
 .link {
   display: flex;
+  align-items: center;
   justify-content: center;
   text-decoration: none;
   transition: all 1s ease;
   color: black;
+  border: 2px solid black;
 }
 
 .link:hover {
   text-decoration: underline;
+  color: gray
 }
 
 .card-section {
@@ -113,3 +116,4 @@ h1 {
     padding: 100px 10px 0px 10px;
   }
 }
+
