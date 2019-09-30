@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transform: scale(1.8);
+    animation: scaleImage 4s ease-out forwards;
+}
+
+.text {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    font-family: 'Comic Sans MS', 'Roboto', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    color: white;
+    background-color: #000;
+    mix-blend-mode: multiply;
+    opacity: 0;
+    animation: fadeInText 2s 2s ease-out forwards;
+    transition: 3s ease
+}
+
+@keyframes scaleImage {
+    0% {
+        pointer-events: none;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeInText {
+    100% {
+        opacity: 1;
+        pointer-events: all;
+    }
+}
+
+.links-page {
+    display: none;
+    color: white;
+    height: 100%;
+}
