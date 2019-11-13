@@ -1,39 +1,19 @@
 * {
-  font-family: Helvetica;
-  text-align: center;
-  background-color: black;
-  color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", sans-serif
 }
 
-canvas {
-  border: 5px solid darkgray;
+body, html {
+    background-image: url("https://wallpaperplay.com/walls/full/3/0/7/17345.jpg");
+    overflow-x: hidden;
 }
 
-a {
-  text-align: center;
-  text-decoration: none;
-  border: 3px;
-  border-style: solid;
-  border-color: white;
-  padding: 5px;
-  background-color: black;
-  transition: all 0.3s ease-in-out;
-  margin-left: 400px;
-  margin-right: 400px;
-  color: white;
-}
-
-a:hover {
-  background-color: white;
-  color: black;
-  border-color: black;
-}
-
-@media (max-width: 1000px) {
-  * {
-    padding: 3px;
-  }
-  div a {
-    margin: 0 auto;
-  }
+.title {
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
