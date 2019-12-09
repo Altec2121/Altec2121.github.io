@@ -1,4 +1,4 @@
-/* * {
+* {
   box-sizing: border-box;
 }
 
@@ -127,7 +127,7 @@ section:nth-of-type(6) {
 
 #slide {
   display: none;
-} */
+}
 body, html {
   height: 100%;
   margin: 0;
