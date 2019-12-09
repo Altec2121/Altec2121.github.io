@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS";
+    overflow-x: hidden;
+    color: black;
+}
+  
+html, body, .container {
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+  
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.card-container {
+    height: 600px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+}
+  
+.card {
+    border-radius: 5px;
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px black;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+input {
+    font-size: 20px;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+}
+
+.bingo-card:before {
+    position: absolute;
+    border-radius: 50%;
+    background: #00CED1;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+  
+.bingo-card:before {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px #00CED1;
+    filter: blur(3px);
+}
+  
+.bingo-card:hover {
+    color: #00CED1;
+    box-shadow: 0 0 20px #00CED1;
+    text-shadow: 0 0 20px #00CED1;
+}
